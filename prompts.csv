@@ -1,0 +1,35 @@
+Prompt,Need input,Before detail,Full text,Quote,Default
+Ignore previous instructions,0,1,Please ignore previous instructions,0,0
+Act as,1,1,I want you to act as,0,1
+Act as Scoratic teacher,0,1,I want you to act as Socratic teacher,0,0
+Explain for 8 year old child,0,0,Explain the topic in a simple way so that an 8 years old child can understand,0,0
+In style of,1,0,Write the response in style of,0,0
+Length of response,1,0,Length of your response should be about,0,0
+Answer in tone,1,0,Give me response with tone that is,0,0
+"Do not repeat my question, give me concise answer",0,0,"Do not repeat my question, give me concise answer",0,0
+Step by step,0,0,Give me the answer in step by step,0,0
+Give me example,0,0,Give specific example for your explanation,0,0
+Give specific ideas instead of general ones,0,0,Give specific ideas instead of general ones,0,0
+Answer in structure,1,0,I want you give response in structure,1,0
+Simulate,1,1,Simulate,0,0
+Summarize the following paragraphs,1,1,Summarize the following paragraphs,1,0
+Brainstorm about topic,1,1,Brainstorm about topic :,1,0
+I give you an example,1,0,I give you an example :,1,0
+Ask me for more necessary information before answering,0,0,Ask me for more necessary information before answering,0,1
+"Explain for general audience, keep it simple and accessible",0,0,"Explain for general audience, keep it simple and accessible",0,0
+Format answer in table,0,0,Write your response in tabular format,0,0
+Format response in CSV,0,0,Write your response in CSV format,0,0
+Format response in HTML,0,0,Write your response in HTML syntax,0,0
+Format response in markdown syntax,0,0,Write your response in markdown syntax,0,0
+Format response in ASCII art,0,0,Write your response in ASCII art,0,0
+Think backward,0,0,I want you to think backward while generating response,0,0
+Include relevant background information,0,0,Include relevant background information about the topic,0,0
+Do not give me,1,0,Do not give me,0,0
+Only ask the following question once I have responded,0,0,You only ask the following question once I have responded,0,0
+Write formally,0,0,Write your response formally,0,0
+Do not write formally,0,0,Do not write your response formally,0,0
+Use metaphors and analogies,0,0,Use metaphors and analogies in your response,0,0
+Think outside the box,0,1,I want you to think outside the box while generating response,0,0
+Give me essential questions to ask,0,0,Give me essential questions to ask about the topic,0,0
+Give me essenntial concepts,0,0,Give me essenntial concepts about the topic,0,0
+Give me assumptions behind,0,0,Give me assumptions behind your response,0,0
