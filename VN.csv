@@ -1,0 +1,35 @@
+Prompt,Need input,Before detail,Full text,Quote,Default
+Bỏ qua những đối thoại phía trước,0,1,Bạn hãy bỏ qua những đối thoại phía trước,0,0
+Đóng vai,1,1,Tôi muốn bạn đóng vai,0,1
+Đóng vai giáo viên Socrate,0,1,Tôi muốn bạn đóng vai giáo viên Socrate,0,0
+Giải thích cho trẻ 8 tuổi,0,0,Giải thích một cách đơn giản để trẻ em 8 tuổi cũng có thể hiểu,0,0
+Theo phong cách của,1,0,Hãy trả lời theo phong cách của,0,0
+Độ dài câu trả lời,1,0,Độ dài câu trả lời khoảng,0,0
+Giọng điệu,1,0,Hãy trả lời với giọng điệu,0,0
+"Không lặp lại lời tôi, chỉ trả lời ngắn gọn",0,0,"Không lặp lại lời tôi, chỉ trả lời ngắn gọn",0,0
+Theo từng bước một,0,0,Trả lời theo từng bước một,0,0
+Cho ví dụ,0,0,Hãy cho ví dụ cụ thể để giải thích,0,0
+Cho ý tưởng cụ thể thay vì ý chung chung,0,0,Hãy cho ý tưởng cụ thể thay vì ý chung chung,0,0
+Trả lời theo cấu trúc,1,0,Hãy trả lời theo cấu trúc,1,0
+Mô phỏng tình huống,1,1,Hãy mô phỏng tình huống,0,0
+Tóm tắt đoạn văn bản sau,1,1,Tóm tắt đoạn văn bản sau,1,0
+Brainstorm về chủ đề,1,1,Brainstorm về chủ đề :,1,0
+Trả lời theo ví dụ mẫu,1,0,Trả lời theo ví dụ mẫu :,1,0
+Hỏi tôi về các thông tin bạn cần trước khi trả lời,0,0,Hỏi tôi về các thông tin bạn cần trước khi trả lời,0,1
+"Giải thích cho khán giả đại trà, hãy trả lời đơn giản dễ hiểu",0,0,"Giải thích cho khán giả đại trà, hãy trả lời đơn giản dễ hiểu",0,0
+Trình bày câu trả lời dạng bảng,0,0,Trình bày câu trả lời dạng bảng,0,0
+Trình bày câu trả lời dạng CSV,0,0,Trình bày câu trả lời dạng CSV,0,0
+Trình bày câu trả lời theo cú pháp HTML,0,0,Trình bày câu trả lời theo cú pháp HTML,0,0
+Trình bày câu trả lời theo cú pháp Markdown,0,0,Trình bày câu trả lời theo cú pháp Markdown,0,0
+Trình bày câu trả lời theo nghệ thuật ASCII,0,0,Trình bày câu trả lời theo nghệ thuật ASCII,0,0
+Nghĩ lùi lại một bước,0,0,Hãy nghĩ lùi lại một bước khi trả lời,0,0
+Cung cấp thêm các thông tin liên quan,0,0,Cung cấp thêm các thông tin liên quan về chủ đề,0,0
+Đừng đưa tôi câu trả lời kiểu,1,0,Đừng đưa tôi câu trả lời kiểu,0,0
+Chỉ đặt câu hỏi sau khi tôi đã trả lời,0,0,Chỉ đặt câu hỏi sau khi tôi đã trả lời,0,0
+Viết trang trọng,0,0,Viết câu trả lời một cách trang trọng,0,0
+Không viết trang trọng,0,0,Không viết câu trả lời một cách trang trọng,0,0
+Sử dụng phép ẩn dụ và tương tự,0,0,Sử dụng phép ẩn dụ và tương tự trong câu trả lời,0,0
+Hãy nghĩ sáng tạo,0,1,Hãy nghĩ sáng tạo khi trả lời,0,0
+Cho tôi những câu hỏi quan trọng để hỏi,0,0,Cho tôi những câu hỏi quan trọng để đào sâu về chủ đề,0,0
+Cho tôi những khái niệm cốt lỏi,0,0,Cho tôi những khái niệm cốt lỏi về chủ đề,0,0
+Cho tôi những giả định ngầm,0,0,Cho tôi những giả định ngầm về chủ đề,0,0
