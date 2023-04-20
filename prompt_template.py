@@ -1,9 +1,30 @@
 import streamlit as st
 import pandas as pd
 
+#language
+lan = st.sidebar.selectbox(
+    " ",
+    ("EN", "VN")
+)
+
+if lan == "EN":
+    S1 = '### Situation and quesion'
+    S2 = "Your detail situation:"
+    S3 = "Your question:"
+    S4 = '### Helper'
+    S5 = '### Your nearly perfect prompt is:'
+    csv_path = 'EN.csv'
+
+if lan == "VN":
+    S1 = '### Tình huống và câu hỏi'
+    S2 = "Chi tiết về tình huống của bạn:"
+    S3 = "Câu hỏi của bạn:"
+    S4 = '### Trợ giúp'
+    S5 = '### Câu prompt gần hoàn hảo của bạn:'
+    csv_path = 'VN.csv'
+
 
 # Set the path of the CSV file
-csv_path = 'prompts.csv'
 
 # Read the CSV file into a pandas DataFrame
 df = pd.read_csv(csv_path)
@@ -12,12 +33,12 @@ df = pd.read_csv(csv_path)
 # print(df['Prompt'])
 
 #general inputs
-st.write('### Describe your situation and your quesion:')
-mySituation = st.text_input("Your detail situation:")
-myQuestion = st.text_input("Your question:")
+st.write(S1)
+mySituation = st.text_input(S2)
+myQuestion = st.text_input(S3)
 
-st.write('### For better prompt:')
-#side bar
+st.write(S4)
+#side bar Helper
 prompts = []
 for j in range(len(df)):
     if df['Default'][j] == 0:
@@ -40,7 +61,7 @@ final_prompt = ""
 #     final_prompt += input
 #     final_prompt += inputs[input]
 
-st.write('### Your nearly perfect prompt is:')
+st.write(S5)
 
 for i in range(len(df)):
     if prompts[i] & (df['Before detail'][i] == 1):
