@@ -13,6 +13,7 @@ if lan == "EN":
     S3 = "Your question:"
     S4 = '### Helper'
     S5 = '### Your nearly perfect prompt is:'
+    S6 = 'My question for you is : '
     csv_path = 'EN.csv'
 
 if lan == "VN":
@@ -22,6 +23,7 @@ if lan == "VN":
     S4 = '### Trợ giúp'
     S5 = '### Câu prompt gần hoàn hảo của bạn:'
     csv_path = 'VN.csv'
+    S6 = 'Hãy trả lời câu hỏi : '
 
 
 # Set the path of the CSV file
@@ -83,7 +85,7 @@ for i in range(len(df)):
 if mySituation != "":
     final_prompt += mySituation + ". "
 if myQuestion != "":
-    final_prompt += 'My question for you is : '+myQuestion + "? "
+    final_prompt += S6 + myQuestion + "? "
 
 for i in range(len(df)):
     if prompts[i] & (df['Before detail'][i] == 0):
